@@ -2,6 +2,10 @@
   .logoP {
     display: none;
   }
+
+  #footer {
+  	margin-top: 50px;
+  }
 }
 
 body{
@@ -63,15 +67,11 @@ body{
 .inputs{
 	margin-top: 20px;
 }
-.footer{
-	width: 100%;
-	position: absolute;
-	bottom: 0;
-}
 .foot{
 	color: white;
 	font-size: 14px;
 	text-align: center;
+	font-weight: bold;
 }
 /*admin*/
 .me{
