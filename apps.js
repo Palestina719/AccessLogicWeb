@@ -6,6 +6,6 @@ app.set("view engine","jade");
 app.use(express.static("public"));
 
 app.get("/",function(solicitud,respuesta){
-	respuesta.render("usuario");
+	respuesta.render("index");
 });
 app.listen(8080);
