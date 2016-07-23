@@ -6,6 +6,6 @@ app.set("view engine","jade");
 app.use(express.static("public"));
 
 app.get("/",function(solicitud,respuesta){
-	respuesta.render("index");
+	respuesta.render("horario");
 });
 app.listen(8080);
