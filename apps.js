@@ -6,6 +6,6 @@ app.set("view engine","jade");
 app.use(express.static("public"));
 
 app.get("/",function(solicitud,respuesta){
-	respuesta.render("horario");
+	respuesta.render("calendario");
 });
 app.listen(8080);
