@@ -18,5 +18,34 @@ html(lang="es")
 		script(src='js/ca.js')
 		
 body
-	div(id='calendar' style="max-width:750px; margin:0 auto; font-size:11px;")
+	div(class="row expanded")
+		div(class="small-12 medium-12 large-12 columns verde")
+			div(class="small-12 medium-12 large-12 columns")
+				img(src="img/Logo.png" class="logoP")
+				p(class="nombre negrita") Access Logic
+				br
+	div(class="row expanded")
+		div(class="small-2 medium-2 large-2 columns me")
+			div(class="small-5 small-offset-2 medium-5 medium-offset-2 large-5 large-offset-2 foto")
+				img(src="img/foto.png")
+			div(class="small-12 medium-12 large-12 columns user")
+				p Agapito López Caste
+			div(class="menu large-12 row expanded item")
+				li
+					a(onclick="calendario()") Calendario
+			div(class="menu large-12 row expanded item")
+				li
+					a(onclick="horario()") Horario
+			div(class="menu large-12 row expanded item")
+				li
+					a(onclick="usuarios()") Usuarios	
+			div(class="menu large-12 row expanded item")
+				li
+					a(onclick="incidencias()") Incidencias
+			div(class="menu large-12 row expanded item")
+				li
+					a(href="index.html") Cerrar Sesión	
+		div(class="small-10 medium-10 large-10 columns")
+			div(id="workarea")
+				div(id='calendar' style="max-width:600px; margin:0 auto; font-size:11px;")
 		
