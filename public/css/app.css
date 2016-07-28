@@ -88,7 +88,7 @@ body{
 /*admin*/
 .me{
 	background-color: #006633;
-	height: 540px;
+	height: 630px;
 }
 .foto img{
 	width:190px;
@@ -101,15 +101,22 @@ body{
 .item{
 	background-color: #006633;
 	font-size: 23px;
-	color:white;
+	margin-top: 10px;
+	
 }
-li:hover{
-	background-color: blue;
+li{
+	background-color: #006633;
+	color: white;
 	padding-left: 20px;
 }
 a{
+	color:white;
+}
+a:hover{
 	color: white;
-	margin-left: 2%;
+	text-decoration: none;
+	margin-left: 12%;
+	background-color: #0AA257;
 }
 .titOptions{
 	color:black;
