@@ -4,8 +4,14 @@
   }
 
   #footer {
-  	margin-top: 50px;
+  	margin-top: 0px;
   }
+}
+
+@media (min-width: 1366px) {
+	#workarea {
+		height: 620px !important;
+	}
 }
 
 body{
@@ -88,7 +94,7 @@ body{
 /*admin*/
 .me{
 	background-color: #006633;
-	height: 630px;
+	height: 650px;
 }
 .foto img{
 	width:190px;
